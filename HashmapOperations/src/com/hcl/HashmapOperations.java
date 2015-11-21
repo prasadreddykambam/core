@@ -15,7 +15,7 @@ public class HashmapOperations {
 		hashMap.put("may", 5);
 		hashMap.put("mar", 3);
 
-		System.out.println(hashMap);
+		
 
 		System.out.println("\nExample 1...");
 		Iterator<Entry<String, Integer>> iterator = hashMap.entrySet()
