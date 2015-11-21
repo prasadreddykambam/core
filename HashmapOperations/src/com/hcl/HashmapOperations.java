@@ -27,14 +27,14 @@ public class HashmapOperations {
 					+ entry.getValue());
 		}
 
-		// more elegant way, this should be the standard way, recommend!
+		
 		System.out.println("\nExample 2...");
 		for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
 			System.out.println("Key : " + entry.getKey() + " Value : "
 					+ entry.getValue());
 		}
 
-		// weired, but works anyway, not recommend!
+		
 		System.out.println("\nExample 3...");
 		for (Object key : hashMap.keySet()) {
 			System.out.println("Key : " + key.toString() + " Value : "
