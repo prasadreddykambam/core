@@ -14,10 +14,7 @@ public class HashmapOperations {
 		hashMap.put("apr", 4);
 		hashMap.put("may", 5);
 		hashMap.put("mar", 3);
-
 		System.out.println("\nExample 1...");
-
-	
 		Iterator<Entry<String, Integer>> iterator = hashMap.entrySet()
 				.iterator();
 		while (iterator.hasNext()) {
@@ -26,15 +23,11 @@ public class HashmapOperations {
 			System.out.println("Key : " + entry.getKey() + " Value :"
 					+ entry.getValue());
 		}
-
-		
 		System.out.println("\nExample 2...");
 		for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
 			System.out.println("Key : " + entry.getKey() + " Value : "
 					+ entry.getValue());
 		}
-
-		
 		System.out.println("\nExample 3...");
 		for (Object key : hashMap.keySet()) {
 			System.out.println("Key : " + key.toString() + " Value : "
